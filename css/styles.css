@@ -1,0 +1,203 @@
+/*   TAG SELECTORS */
+
+body
+{
+    font-family: "Montserrat"; 
+}
+
+h1
+{
+    font-family: "Montserrat-Black" ;
+    font-size:3.5rem; 
+    line-height: 1.5 ;
+    font-weight: 500;
+   
+    
+}
+.container-fluid{
+    padding: 3% 15% 5% ;
+}
+
+/* Navigation bar */
+.navbar-brand
+{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+ .navbar{
+    padding:0 0 4.5rem ;
+} 
+ .nav-item
+{
+    padding: 0 18px ;
+} 
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "montserrat-light";
+}
+
+/* download buttons  */
+.download-btn
+{
+   margin:5% 3% 5% 0;
+}  
+
+/* title-image */
+.title-img{
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+}
+
+/* middle content  */
+
+/* .content1
+{
+    margin: 120px auto ;
+
+} */
+.colored-section
+{
+    background-color: #ff4c68;
+    color: #FFF;
+}
+.white-section
+{
+    background-color:#FFF;
+
+}
+#features
+{
+    padding: 7% 15%;
+    
+    
+    position: relative;
+}
+.row-content1{
+    text-align: center;
+    margin: 120px auto ;
+    
+}
+.row-content-h1{
+    font-family:"montserrat";
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+.row-content-p
+{
+    width: 80%;  /* Instead of doing this , just put padding to row-content1 because it would be hectic to try all the width values */
+    margin: 0px auto;
+    color: #8f8f8f;
+}
+.ikon
+{
+    
+    
+    /* align-items: center;
+    justify-content:center; */
+    color: #ef8172;
+    
+}
+.ikon :hover{
+    color: #ff4c68;
+}
+
+#testimonials
+{
+    
+    background-color: #ef8172;
+    text-align: center;
+    color: #FFF;
+}
+.testimonial-img{
+    width:10%;
+    border-radius: 100%;
+    margin: 20px;
+    
+}
+.testimonial-h2
+{
+    /* color: #FFF; */
+    font-size: 3rem;
+    font-family: "montserrat-bold";
+    line-height: 1.5;
+    width: 88%;
+    font-weight: bolder;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+
+#press
+{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+    
+}
+.press-img
+{
+    width: 15%;
+     margin: 20px 20px 50px; /*I had given 20px to all sides */
+    /* padding-bottom: 30px; */ 
+    
+}
+
+#pricing
+{
+    padding: 100px;
+   
+}
+.card-header
+{
+    
+    font-family: inherit;
+}
+
+@media screen and (max-width:1028px)
+{
+    .title-img{
+        position: static;
+        width: 60%;
+        transform: none;
+    }
+    #title {
+        text-align: center;
+    }
+}
+/* .cta-div
+{
+    background-color: #ff4c68;
+    font-family: "montserrat-black";
+    text-align: center;
+    padding: 30px;
+} */
+#cta
+{
+    
+    font-family: "montserrat-black";
+    text-align: center;
+    padding: 7% 15%;
+
+}
+.cta-h3
+{
+    
+    
+    font-size: 3.5rem; 
+    font-weight: bolder;
+    line-height: 1.5;
+}
+#footer
+{
+    text-align: center;
+    padding: 7% 15%;
+    
+}
+.footer-ikn 
+{
+    padding:20px 10px;
+    color: inherit;
+}
